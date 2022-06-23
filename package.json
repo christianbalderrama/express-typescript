@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "production": "./node_modules/bin/tsc &&  && npm start",
-    "dev": "concurrently \"tsc --watch\" \"nodemon dist/index\"",
+    "production": "npm run build && npm start",
+    "dev": "npm run build && concurrently \"tsc --watch\" \"nodemon dist/index\"",
     "build": "./node_modules/.bin/tsc",
     "start": "node dist/index",
     "test": "echo \"Error: no test specified\" && exit 1"
