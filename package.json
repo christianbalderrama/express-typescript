@@ -1,7 +1,7 @@
 {
   "name": "express-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express + TypeScript Boilerplate",
   "main": "index.js",
   "scripts": {
     "production": "npm run build && npm start",
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Christian Balderrama <ca.balderrama@icloud.com>",
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.29.0",
