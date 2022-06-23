@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "production": "npm run build && npm start",
-    "dev": "npm run build && concurrently \"tsc --watch\" \"nodemon dist/index | pino-pretty\"",
+    "dev": "npm run build && concurrently \"tsc --watch\" \"nodemon dist/index | npx pino-pretty\"",
     "build": "./node_modules/.bin/tsc",
-    "start": "node dist/index | pino-pretty",
+    "start": "node dist/index | npx pino-pretty",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
